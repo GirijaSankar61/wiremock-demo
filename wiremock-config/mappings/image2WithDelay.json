@@ -1,0 +1,14 @@
+{
+  "request": {
+    "method": "GET",
+    "url": "/image2/delay"
+  },
+  "response": {
+    "status": 200,
+    "bodyFileName": "image2.jpg",
+    "headers": {
+      "Content-Type": "image/png"
+    },
+    "fixedDelayMilliseconds": 2000
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "request": {
+    "method": "GET",
+    "url": "/image1"
+  },
+  "response": {
+    "status": 200,
+    "bodyFileName": "image1.jpg",
+    "headers": {
+      "Content-Type": "image/png"
+    }
+  }
+}
