@@ -1,14 +1,134 @@
 {
-  "request": {
-    "method": "GET",
-    "url": "/image1/delay"
-  },
-  "response": {
-    "status": 200,
-    "bodyFileName": "image1.jpg",
-    "headers": {
-      "Content-Type": "image/png"
+  "mappings": [
+    {
+      "request": {
+        "method": "GET",
+        "urlPathPattern": "/image1/delay"
+      },
+      "response": {
+        "status": 200,
+        "bodyFileName": "image1.jpg",
+        "headers": {
+          "Content-Type": "image/png"
+        },
+        "fixedDelayMilliseconds": 2000
+      }
     },
-    "fixedDelayMilliseconds": 2000
-  }
+    {
+      "request": {
+        "method": "GET",
+        "urlPathPattern": "/image2/delay"
+      },
+      "response": {
+        "status": 200,
+        "bodyFileName": "image2.jpg",
+        "headers": {
+          "Content-Type": "image/png"
+        },
+        "fixedDelayMilliseconds": 2000
+      }
+    },
+    {
+      "request": {
+        "method": "GET",
+        "urlPathPattern": "/image3/delay"
+      },
+      "response": {
+        "status": 200,
+        "bodyFileName": "image3.jpg",
+        "headers": {
+          "Content-Type": "image/png"
+        },
+        "fixedDelayMilliseconds": 2000
+      }
+    },
+    {
+      "request": {
+        "method": "GET",
+        "urlPathPattern": "/image4/delay"
+      },
+      "response": {
+        "status": 200,
+        "bodyFileName": "image4.jpg",
+        "headers": {
+          "Content-Type": "image/png"
+        },
+        "fixedDelayMilliseconds": 2000
+      }
+    },
+    {
+      "request": {
+        "method": "GET",
+        "urlPathPattern": "/image5/delay"
+      },
+      "response": {
+        "status": 200,
+        "bodyFileName": "image5.jpg",
+        "headers": {
+          "Content-Type": "image/png"
+        },
+        "fixedDelayMilliseconds": 2000
+      }
+    },
+    {
+      "request": {
+        "method": "GET",
+        "urlPathPattern": "/image6/delay"
+      },
+      "response": {
+        "status": 200,
+        "bodyFileName": "image6.jpg",
+        "headers": {
+          "Content-Type": "image/png"
+        },
+        "fixedDelayMilliseconds": 2000
+      }
+    },
+    {
+      "request": {
+        "method": "GET",
+        "urlPathPattern": "/image7/delay"
+      },
+      "response": {
+        "status": 200,
+        "bodyFileName": "image7.jpg",
+        "headers": {
+          "Content-Type": "image/png"
+        },
+        "fixedDelayMilliseconds": 2000
+      }
+    },
+    {
+      "request": {
+        "method": "GET",
+        "urlPathPattern": "/image8/delay"
+      },
+      "response": {
+        "status": 200,
+        "bodyFileName": "image8.jpg",
+        "headers": {
+          "Content-Type": "image/png"
+        },
+        "fixedDelayMilliseconds": 2000
+      }
+    },
+    {
+      "request": {
+        "method": "GET",
+        "urlPathPattern": "/image9/delay"
+      },
+      "response": {
+        "status": 200,
+        "bodyFileName": "image9.jpg",
+        "headers": {
+          "Content-Type": "image/png"
+        },
+        "delayDistribution": {
+          "type": "lognormal",
+          "median": 80,
+          "sigma": 0.4
+        }
+      }
+    }
+  ]
 }

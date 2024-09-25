@@ -1,13 +1,121 @@
 {
-  "request": {
-    "method": "GET",
-    "url": "/image1"
-  },
-  "response": {
-    "status": 200,
-    "bodyFileName": "image1.jpg",
-    "headers": {
-      "Content-Type": "image/png"
+  "mappings": [
+    {
+      "request": {
+        "method": "GET",
+        "url": "/image1"
+      },
+      "response": {
+        "status": 200,
+        "bodyFileName": "image1.jpg",
+        "headers": {
+          "Content-Type": "image/png"
+        }
+      }
+    },
+    {
+      "request": {
+        "method": "GET",
+        "url": "/image2"
+      },
+      "response": {
+        "status": 200,
+        "bodyFileName": "image2.jpg",
+        "headers": {
+          "Content-Type": "image/png"
+        }
+      }
+    },
+    {
+      "request": {
+        "method": "GET",
+        "url": "/image3"
+      },
+      "response": {
+        "status": 200,
+        "bodyFileName": "image3.jpg",
+        "headers": {
+          "Content-Type": "image/png"
+        }
+      }
+    },
+    {
+      "request": {
+        "method": "GET",
+        "url": "/image4"
+      },
+      "response": {
+        "status": 200,
+        "bodyFileName": "image4.jpg",
+        "headers": {
+          "Content-Type": "image/png"
+        }
+      }
+    },
+    {
+      "request": {
+        "method": "GET",
+        "url": "/image5"
+      },
+      "response": {
+        "status": 200,
+        "bodyFileName": "image5.jpg",
+        "headers": {
+          "Content-Type": "image/png"
+        }
+      }
+    },
+    {
+      "request": {
+        "method": "GET",
+        "url": "/image6"
+      },
+      "response": {
+        "status": 200,
+        "bodyFileName": "image6.jpg",
+        "headers": {
+          "Content-Type": "image/png"
+        }
+      }
+    },
+    {
+      "request": {
+        "method": "GET",
+        "url": "/image7"
+      },
+      "response": {
+        "status": 200,
+        "bodyFileName": "image7.jpg",
+        "headers": {
+          "Content-Type": "image/png"
+        }
+      }
+    },
+    {
+      "request": {
+        "method": "GET",
+        "url": "/image8"
+      },
+      "response": {
+        "status": 200,
+        "bodyFileName": "image8.jpg",
+        "headers": {
+          "Content-Type": "image/png"
+        }
+      }
+    },
+    {
+      "request": {
+        "method": "GET",
+        "url": "/image9"
+      },
+      "response": {
+        "status": 200,
+        "bodyFileName": "image9.jpg",
+        "headers": {
+          "Content-Type": "image/png"
+        }
+      }
     }
-  }
+  ]
 }
