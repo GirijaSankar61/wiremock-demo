@@ -3,11 +3,24 @@
     {
       "request": {
         "method": "GET",
+        "url": "/"
+      },
+      "response": {
+        "status": 200,
+        "body": "Application is running",
+        "headers": {
+          "Content-Type": "text/plain"
+        }
+      }
+    },
+    {
+      "request": {
+        "method": "GET",
         "url": "/image1"
       },
       "response": {
         "status": 200,
-        "bodyFileName": "image1.jpg",
+        "bodyFileName": "1MB_to_5MB/image1.jpg",
         "headers": {
           "Content-Type": "image/png"
         }
@@ -20,7 +33,7 @@
       },
       "response": {
         "status": 200,
-        "bodyFileName": "image2.jpg",
+        "bodyFileName": "1MB_to_5MB/image2.jpg",
         "headers": {
           "Content-Type": "image/png"
         }
@@ -33,7 +46,7 @@
       },
       "response": {
         "status": 200,
-        "bodyFileName": "image3.jpg",
+        "bodyFileName": "1MB_to_5MB/image3.jpg",
         "headers": {
           "Content-Type": "image/png"
         }
@@ -46,7 +59,7 @@
       },
       "response": {
         "status": 200,
-        "bodyFileName": "image4.jpg",
+        "bodyFileName": "1MB_to_5MB/image4.jpg",
         "headers": {
           "Content-Type": "image/png"
         }
@@ -59,7 +72,7 @@
       },
       "response": {
         "status": 200,
-        "bodyFileName": "image5.jpg",
+        "bodyFileName": "1MB_to_5MB/image5.jpg",
         "headers": {
           "Content-Type": "image/png"
         }
@@ -72,7 +85,7 @@
       },
       "response": {
         "status": 200,
-        "bodyFileName": "image6.jpg",
+        "bodyFileName": "1MB_to_5MB/image6.jpg",
         "headers": {
           "Content-Type": "image/png"
         }
@@ -85,7 +98,7 @@
       },
       "response": {
         "status": 200,
-        "bodyFileName": "image7.jpg",
+        "bodyFileName": "1MB_to_5MB/image7.jpg",
         "headers": {
           "Content-Type": "image/png"
         }
@@ -98,7 +111,7 @@
       },
       "response": {
         "status": 200,
-        "bodyFileName": "image8.jpg",
+        "bodyFileName": "1MB_to_5MB/image8.jpg",
         "headers": {
           "Content-Type": "image/png"
         }
@@ -111,9 +124,28 @@
       },
       "response": {
         "status": 200,
-        "bodyFileName": "image9.jpg",
+        "bodyFileName": "1MB_to_5MB/image9.jpg",
         "headers": {
           "Content-Type": "image/png"
+        }
+      }
+    }
+  ,
+    {
+      "request": {
+        "method": "GET",
+        "url": "/image91"
+      },
+      "response": {
+        "status": 200,
+        "bodyFileName": "1MB_to_5MB/image9.jpg",
+        "headers": {
+          "Content-Type": "image/png"
+        },
+        "delayDistribution": {
+          "type": "lognormal",
+          "median": 800,
+          "sigma": 0.4
         }
       }
     }

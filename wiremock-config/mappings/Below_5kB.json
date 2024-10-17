@@ -1,0 +1,140 @@
+{
+  "mappings": [
+    {
+      "request": {
+        "method": "GET",
+        "url": "/5kb/image1"
+      },
+      "response": {
+        "status": 200,
+        "bodyFileName": "below5KB/image1.jpg",
+        "headers": {
+          "Content-Type": "image/png"
+        }
+      }
+    },
+    {
+      "request": {
+        "method": "GET",
+        "url": "/5kb/image2"
+      },
+      "response": {
+        "status": 200,
+        "bodyFileName": "below5KB/image2.png",
+        "headers": {
+          "Content-Type": "image/png"
+        }
+      }
+    },
+    {
+      "request": {
+        "method": "GET",
+        "url": "/5kb/image3"
+      },
+      "response": {
+        "status": 200,
+        "bodyFileName": "below5KB/image3.png",
+        "headers": {
+          "Content-Type": "image/png"
+        }
+      }
+    },
+    {
+      "request": {
+        "method": "GET",
+        "url": "/5kb/image4"
+      },
+      "response": {
+        "status": 200,
+        "bodyFileName": "below5KB/image4.jpg",
+        "headers": {
+          "Content-Type": "image/png"
+        }
+      }
+    },
+    {
+      "request": {
+        "method": "GET",
+        "url": "/5kb/image5"
+      },
+      "response": {
+        "status": 200,
+        "bodyFileName": "below5KB/image5.png",
+        "headers": {
+          "Content-Type": "image/png"
+        }
+      }
+    },
+    {
+      "request": {
+        "method": "GET",
+        "url": "/5kb/image6"
+      },
+      "response": {
+        "status": 200,
+        "bodyFileName": "below5KB/image6.png",
+        "headers": {
+          "Content-Type": "image/png"
+        }
+      }
+    },
+    {
+      "request": {
+        "method": "GET",
+        "url": "/5kb/image7"
+      },
+      "response": {
+        "status": 200,
+        "bodyFileName": "below5KB/image7.png",
+        "headers": {
+          "Content-Type": "image/png"
+        }
+      }
+    },
+    {
+      "request": {
+        "method": "GET",
+        "url": "/5kb/image8"
+      },
+      "response": {
+        "status": 200,
+        "bodyFileName": "below5KB/image8.png",
+        "headers": {
+          "Content-Type": "image/png"
+        }
+      }
+    },
+    {
+      "request": {
+        "method": "GET",
+        "url": "/5kb/image9"
+      },
+      "response": {
+        "status": 200,
+        "bodyFileName": "below5KB/image9.png",
+        "headers": {
+          "Content-Type": "image/png"
+        }
+      }
+    }
+  ,
+    {
+      "request": {
+        "method": "GET",
+        "url": "/5kb/image91"
+      },
+      "response": {
+        "status": 200,
+        "bodyFileName": "below5KB/image9.png",
+        "headers": {
+          "Content-Type": "image/png"
+        },
+        "delayDistribution": {
+          "type": "lognormal",
+          "median": 2500,
+          "sigma": 0.4
+        }
+      }
+    }
+  ]
+}
